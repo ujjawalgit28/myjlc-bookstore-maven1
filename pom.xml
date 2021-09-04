@@ -5,8 +5,11 @@
 		<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.jlcindia.springboot</groupId>
+	
 	<artifactId>myjlc-bookstore-maven</artifactId>
 	<version>1.0</version>
+	<packaging>jar</packaging>
+	
 	<name>myjlc-bookstore-maven</name>
 	<description>Spring Boot and Maven Application</description>
 	
@@ -63,6 +66,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>myjlcapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
